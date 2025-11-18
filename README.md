@@ -15,6 +15,7 @@ return value-5;
 return "Unknown Value"
 }
 }`
+
 অন্য দিকে never হচ্ছে যেখানে value কখনো create হবে না অথবা যে function কিচ্ছু return করবে না, ওই ক্ষেত্রে ব্যবহার করা হয়।
 
 `function throwError(message: string): never {
